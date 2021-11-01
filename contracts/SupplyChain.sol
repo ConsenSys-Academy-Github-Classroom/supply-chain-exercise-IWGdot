@@ -33,7 +33,7 @@ contract SupplyChain {
   event LogForSale(uint sku);
 
   // <LogSold event: sku arg>
-  event LogSold((uint sku);
+  event LogSold(uint sku);
 
   // <LogShipped event: sku arg>
   event LogShipped(uint sku);
