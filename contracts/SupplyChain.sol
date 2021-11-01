@@ -13,7 +13,7 @@ contract SupplyChain {
   mapping(uint => Item) private items;
 
   // <enum State: ForSale, Sold, Shipped, Received>
-  enum State {ForSale, Sold, Shiped, Received}
+  enum State {ForSale, Sold, Shipped, Received}
 
   // <struct Item: name, sku, price, state, seller, and buyer>
   struct Item {
