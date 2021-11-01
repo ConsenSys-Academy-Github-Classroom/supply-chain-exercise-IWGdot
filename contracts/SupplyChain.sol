@@ -54,7 +54,7 @@ contract SupplyChain {
   }
   
   modifier isSeller (uint _sku) {
-    require (msg.sender == items[_sku].seller;
+    require (msg.sender == items[_sku].seller);
     _;
   }
   
