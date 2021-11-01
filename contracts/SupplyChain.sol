@@ -58,7 +58,7 @@ contract SupplyChain {
     _;
   }
   
-  midifier isBuyer (uint _sku) {
+  modifier isBuyer (uint _sku) {
     require (msg.sender == items[_sku].buyer);
     _;
   }
